@@ -26,7 +26,7 @@ public class MorpheusIDE_FXTest extends Application {
         
         Scene scene = new Scene(root);
         
-        stage.setTitle("Morpheus IDE");
+        stage.setTitle("MorpheusIDE");
         stage.setScene(scene);
         stage.show();
     }
