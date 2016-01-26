@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package BYOND;
+package morpheus.model.BYOND;
+
+import morpheus.model.BYOND.ByondAtom;
 
 /**
  *
