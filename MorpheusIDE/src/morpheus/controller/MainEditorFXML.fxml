@@ -9,7 +9,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1">
+<VBox prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="morpheus.controller.FXMLDocumentController">
    <children>
       <MenuBar VBox.vgrow="NEVER">
          <menus>
@@ -62,7 +62,7 @@
                   <MenuItem mnemonicParsing="false" text="Editor Help" />
                   <MenuItem mnemonicParsing="false" text="BYOND Reference" />
                   <SeparatorMenuItem mnemonicParsing="false" />
-                  <MenuItem mnemonicParsing="false" text="About MorpheusIDE" />
+                  <MenuItem fx:id="aboutMorpheusMenu" mnemonicParsing="false" onAction="#handleAboutMorpheusMenuAction" text="About MorpheusIDE" />
                   <MenuItem mnemonicParsing="false" text="About BYOND" />
                </items>
             </Menu>

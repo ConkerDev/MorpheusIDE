@@ -65,13 +65,20 @@ public class ByondAtom {
         this.path.set(path);
     }
 
-    
+    public StringProperty getPathProperty() {
+        return path;
+    }
+
     public String getFilename() {
         return filename.get();
     }
     
     public void setFilename(String filename) {
         this.filename.set(filename);
+    }
+    
+    public StringProperty getFilenameProperty() {
+        return filename;
     }
 
     public int getLine() {
@@ -82,14 +89,6 @@ public class ByondAtom {
         this.line.set(line);
     }
 
-    public StringProperty getPathProperty() {
-        return path;
-    }
-
-    public StringProperty getFilenameProperty() {
-        return filename;
-    }
-
     public IntegerProperty getLineProperty() {
         return line;
     }
@@ -98,6 +97,9 @@ public class ByondAtom {
         return parent;
     }
     
-    
+    public void setParent(ByondAtom par) {
+        this.parent.set(par);
+    }
+
 }
 
