@@ -7,13 +7,13 @@ package morpheus.model.BYOND;
 
 /**
  *
- * @author obrai_000
+ * @author Conker
  */
-class ByondDefine<T> {
+class ByondDefine {
     private final String defineName;
-    private T value;
+    private String value;
     
-    public ByondDefine(String name, T val){
+    public ByondDefine(String name, String val){
         this.defineName = name;
         this.value = val;
     }
@@ -22,11 +22,11 @@ class ByondDefine<T> {
         return defineName;
     }
     
-    public T getValue(){
+    public String getValue(){
         return value;
     }
     
-    public void setValue(T val){
+    public void setValue(String val){
         this.value = val;
     }
 }

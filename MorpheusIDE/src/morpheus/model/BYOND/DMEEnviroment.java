@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author obrai_000
+ * @author Conker
  */
 public class DMEEnviroment {
     private ArrayList<Path> filelist; //Change to tree structure of folder/file
