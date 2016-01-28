@@ -5,7 +5,6 @@
  */
 package morpheus.model.BYOND;
 
-import java.nio.file.Path;
 import java.util.ArrayList;
 
 /**
@@ -13,6 +12,39 @@ import java.util.ArrayList;
  * @author Conker
  */
 public class DMEEnviroment {
-    private ArrayList<Path> filelist; //Change to tree structure of folder/file
-    private ArrayList<ByondDefine> defineList;
+    private ArrayList<String> filelist;
+    private String filedir;
+    private boolean debug;
+
+    public DMEEnviroment(){
+        filelist = null;
+        filedir = null;
+        debug = false;
+    }
+    
+    public ArrayList<String> getFilelist() {
+        return filelist;
+    }
+
+    public boolean addFile(String file) {
+        return this.filelist.add(file);
+    }
+
+    public String getFiledir() {
+        return filedir;
+    }
+
+    public void setFiledir(String filedir) {
+        this.filedir = filedir;
+    }
+
+    public boolean isDebug() {
+        return debug;
+    }
+
+    public void setDebug(boolean debug) {
+        this.debug = debug;
+    }
+    
+    
 }
