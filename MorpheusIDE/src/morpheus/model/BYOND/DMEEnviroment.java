@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Conker
+ * @author ConkerDev <https://github.com/ConkerDev>
  */
 public class DMEEnviroment {
     private ArrayList<String> filelist;
@@ -17,7 +17,7 @@ public class DMEEnviroment {
     private boolean debug;
 
     public DMEEnviroment(){
-        filelist = null;
+        this.filelist = new ArrayList<>();
         filedir = null;
         debug = false;
     }

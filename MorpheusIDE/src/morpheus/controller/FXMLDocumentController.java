@@ -21,7 +21,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author obrai_000
+ * @author ConkerDev <https://github.com/ConkerDev>
  */
 public class FXMLDocumentController implements Initializable {
     @FXML
@@ -49,5 +49,11 @@ public class FXMLDocumentController implements Initializable {
         
     }
     
+    @FXML
+    private void handleOpenProjectMenuAction(ActionEvent event)
+                throws IOException {
+
+        
+    }
     
 }

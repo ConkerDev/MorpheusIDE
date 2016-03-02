@@ -7,7 +7,7 @@ package morpheus.model.BYOND;
 
 /**
  *
- * @author Conker
+ * @author ConkerDev <https://github.com/ConkerDev>
  */
 class ByondDefine {
     private final String defineName;

@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  *
- * @author obrai_000
+ * @author ConkerDev <https://github.com/ConkerDev>
  */
 public class LineReader {
     //Static class?

@@ -9,7 +9,7 @@ import morpheus.model.BYOND.ByondAtom;
 
 /**
  *
- * @author obrai_000
+ * @author ConkerDev <https://github.com/ConkerDev>
  */
 public class ByondAtomInstance {
 

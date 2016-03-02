@@ -16,7 +16,7 @@ import javafx.stage.Stage;
 
 /**
  *
- * @author obrai_000
+ * @author ConkerDev <https://github.com/ConkerDev>
  */
 public class MorpheusIDE_FXTest extends Application {
     

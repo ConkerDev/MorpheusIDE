@@ -17,8 +17,8 @@ import javafx.beans.property.StringProperty;
 
 /**
  *
- * @author ConkerDev
- * @author N3X15 
+ * @author ConkerDev <https://github.com/ConkerDev>
+ * @author Rob "N3X15" Nelson <https://github.com/N3X15>
  */
 
 public class ByondAtom {
@@ -29,7 +29,7 @@ public class ByondAtom {
     private final IntegerProperty line;           //The line in the file that this atom comes from
     
     private final ObjectProperty<ByondAtom> parent;   //The parent to this atom. Can be null in the case of base atoms
-    private ArrayList<ByondAtom> children;
+    private ArrayList<ByondAtom> children = new ArrayList<>();;
 
     /**
      * Constructor for a Byond Atom (code wise)
